@@ -1,7 +1,6 @@
 body
 {
   background-color:#000;
-  background-image:url(Background_img.jpg);
   background-repeat:no-repeat;
   background-size: cover;
 }
@@ -23,11 +22,16 @@ h2{
 }
 h3{
   color:#fff;
+  padding:none;
+  margin : none;
 }
 p{
   border-left: 6px solid red;
   background-color: lightgrey;
   font-family: 'Courier New', Courier, monospace;
+  padding:none;
+  margin : none;
+  font-weight: bold;
 }
 #img1{
   border:solid;
@@ -47,5 +51,4 @@ h3.container1
  }
 a:hover{
   opacity:70%;
-  background-color: grey;
 }
