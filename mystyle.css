@@ -1,0 +1,51 @@
+body
+{
+  background-color:bisque;
+  background-image:url(Background_img.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+h1
+{
+  background-color: black;
+  color: white;
+  border-bottom: 6px solid red;
+  text-shadow: 2px 2px 5px red;
+ 
+}
+h2{
+  color:rgb(48, 170, 201);
+  background-color: blanchedalmond;
+  border-style: hidden hidden hidden solid;
+  border-color: blue;
+  border-width:5px;
+  text-align:center;
+}
+p{
+  border-left: 6px solid red;
+  background-color: lightgrey;
+  font-family: 'Courier New', Courier, monospace;
+}
+#img1{
+  border:solid;
+  border-color:chartreuse;
+  border-width:5px;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: 2.5px;
+}
+#img2
+{
+  border:solid;
+  border-color:black;
+  border-width:5px;
+}
+h3.container1 
+{
+ border:1px ccc solid;
+ padding:10px;
+ }
+a:hover{
+  opacity:70%;
+  background-color: grey;
+}
